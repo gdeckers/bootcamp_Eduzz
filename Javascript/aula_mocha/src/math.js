@@ -5,6 +5,9 @@ class Math{
     multiply = function multiply(a,b){
         return a * b;
     }
+    printSum = function printSum(req, res, a, b){
+        return res.load('index', a + b);
+    }
 }
 
 module.exports = Math
